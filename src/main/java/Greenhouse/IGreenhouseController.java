@@ -1,4 +1,6 @@
-public interface IGreenhouse {
+package Greenhouse;
+
+public interface IGreenhouseController {
     int getTemp();
     int getHumidity();
     int getSoilMoisture();
@@ -9,4 +11,5 @@ public interface IGreenhouse {
     void lights(int percentIntensity);
     void door(boolean openClose);
     void water(boolean onOff);
+
 }
